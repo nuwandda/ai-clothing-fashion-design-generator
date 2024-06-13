@@ -1,0 +1,6 @@
+*.pyc
+*.pth
+*.onnx
+*.pkl
+*.DS_Store
+__pycache__
