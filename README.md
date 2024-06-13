@@ -1,4 +1,4 @@
-# AI CLothing Fashion Design Generator 
+# AI Clothing Fashion Design Generator 
 <a name="readme-top"></a>
 
 <!-- ABOUT THE PROJECT -->
