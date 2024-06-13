@@ -21,13 +21,6 @@ The Fashion Design Generator represents a significant leap forward in the inters
 
 ![sample_image](samples/sample_image.jpg "Results")
 
-<!-- ARCHITECTURE -->
-## Architecture
-Stable Diffusion, a latent text-to-image diffusion model released in 2022, employs latent diffusion models (LDMs). LDMs iteratively reduce noise in a latent representation space and convert it into complete images. The text-to-image generation process involves an Image Encoder, Text Encoder, Diffusion Model, and Image Decoder. The Image Encoder and Text Encoder transform images and text into latent representations, the Diffusion Model generates new images guided by text, and the Image Decoder reconstructs images from the latent space. Stable Diffusion excels in generating detailed images from text and supports tasks like inpainting and image-to-image translations. Its weights, model card, and code are publicly available.
-
-The model used in this project is called "RealVis". RealVis is an all-rounded model for generating photograph-style images. In addition to realistic people, it is also good for products and scenes. Please visit this <a href="https://civitai.com/models/139562/realvisxl-v40">link</a> to see details.
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
-
 <!-- Used Technologies -->
 ## Used technologies
 ### RealVisXL
