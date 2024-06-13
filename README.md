@@ -131,6 +131,11 @@ To install the required packages, in a terminal, type:
   pip install -r requirements.txt
   ```
 
+### Clone IDM-VTON
+  ```sh
+  git clone https://github.com/yisol/IDM-VTON.git
+  ```
+
 ### Download models
 To download the models, in a terminal, type:
   ```sh
@@ -145,11 +150,6 @@ To download the models, in a terminal, type:
   wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/humanparsing/parsing_lip.onnx?download=true --directory-prefix idm_vton/ckpt/humanparsing -content-disposition
 
   wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/openpose/ckpts/body_pose_model.pth?download=true --directory-prefix idm_vton/ckpt/openpose/ckpts -content-disposition
-  ```
-
-### Clone IDM-VTON
-  ```sh
-  git clone https://github.com/yisol/IDM-VTON.git
   ```
 
 ### Move try_on.py
