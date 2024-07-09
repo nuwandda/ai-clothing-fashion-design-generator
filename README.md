@@ -143,13 +143,13 @@ To download the models, in a terminal, type:
 
   wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth --directory-prefix weights
 
-  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/densepose/model_final_162be9.pkl?download=true --directory-prefix idm_vton/ckpt/densepose -content-disposition
+  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/densepose/model_final_162be9.pkl?download=true --directory-prefix idm_vton/ckpt/densepose --content-disposition
 
-  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/humanparsing/parsing_atr.onnx?download=true --directory-prefix idm_vton/ckpt/humanparsing -content-disposition
+  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/humanparsing/parsing_atr.onnx?download=true --directory-prefix idm_vton/ckpt/humanparsing --content-disposition
 
-  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/humanparsing/parsing_lip.onnx?download=true --directory-prefix idm_vton/ckpt/humanparsing -content-disposition
+  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/humanparsing/parsing_lip.onnx?download=true --directory-prefix idm_vton/ckpt/humanparsing --content-disposition
 
-  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/openpose/ckpts/body_pose_model.pth?download=true --directory-prefix idm_vton/ckpt/openpose/ckpts -content-disposition
+  wget https://huggingface.co/spaces/yisol/IDM-VTON/resolve/main/ckpt/openpose/ckpts/body_pose_model.pth?download=true --directory-prefix idm_vton/ckpt/openpose/ckpts --content-disposition
   ```
 
 ### Move try_on.py
